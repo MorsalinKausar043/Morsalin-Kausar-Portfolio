@@ -4,10 +4,10 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
 import "./navbar.css";
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Home', href: '#', current: false },
+  { name: 'Project', href: '#', current: false },
+  { name: 'Blog', href: '#', current: false },
+  { name: 'About', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 const Navbar2 = () => {
   return (
-    <Disclosure as="nav" className="bg-blue-800">
+    <Disclosure as="nav" className="bg-indigo-800">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -35,16 +35,16 @@ const Navbar2 = () => {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                    className="block lg:hidden h-10 w-auto"
+                    src="https://i.ibb.co/dD9bytd/kaudar-logo.png"
                     alt="Workflow"
                   />
                   <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                    className="hidden lg:block h-10 w-auto"
+                    src="https://i.ibb.co/dD9bytd/kaudar-logo.png"
                     alt="Workflow"
                     />
-                    <h2 className='ml-4 text-white hidden text-2xl lg:block'>Zuan</h2>
+                    <h2 className='text-white mb-2 hidden text-2xl lg:block'>Morsalin</h2>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
@@ -80,7 +80,7 @@ const Navbar2 = () => {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        src="https://i.ibb.co/Db96Qq2/toonmecom-06a867.jpg"
                         alt=""
                       />
                     </Menu.Button>
